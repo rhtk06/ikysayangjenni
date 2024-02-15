@@ -1,0 +1,31 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffcccc; /* Warna latar belakang valentine */
+}
+.container {
+    text-align: center;
+    margin-top: 20vh;
+    animation: bounce 2s infinite alternate; /* Animasi bouncing */
+}
+.message {
+    font-size: 24px;
+    color: #ff3399; /* Warna teks */
+}
+.love {
+    font-size: 36px;
+    color: #ff3399; /* Warna teks */
+    font-family: 'Arial Black', sans-serif;
+}
+.emoticons {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}

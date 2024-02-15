@@ -1,0 +1,31 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffcccc; /* Warna latar belakang valentine */
+    text-align: center;
+    padding: 1em;
+}
+
+.tulisan {
+    font-size: 24px;
+    color: #ff3399; /* Warna teks */
+}
+
+button {
+    background-color:#ff6f77;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 40px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+    background-color:#f95579;
+}
+
+button:active {
+    background-color: #ff3399;
+    transform: translateY(1px);
+}
